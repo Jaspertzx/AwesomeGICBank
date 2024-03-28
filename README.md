@@ -19,6 +19,8 @@ Currently, this application is developed to deliver these three main features.
 2. Open this current directory in your terminal.
 3. Enter `java -jar FinalApplicationJar/AwesomeGICBank.jar` into your terminal to run the application.
 4. Alternatively, you may type `./gradlew run` into the current directory to run the application. 
+5. Another alternative would be to go to the [GitHub releases](https://github.com/Jaspertzx/AwesomeGICBank/releases) to 
+download a working jar file.
 
 # Developer Comments
 
@@ -26,6 +28,7 @@ Hello! I have added persistent storage to this banking system as well.
 If you would like to start anew, you may enter:
 - `rm .\AwesomeGICData\ -Recurse` (Windows Powershell)
 - `rmdir AwesomeGICData /s` (Windows Terminal)   
+- or simply delete the folder called `AwesomeGICData` in your file explorer
 
 in your terminal, in the same directory where you have executed the Jar file.   
 This command will delete the folder created in the directory from which you ran the Jar file, and remove all statements
